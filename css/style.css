@@ -1,0 +1,511 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+.heading h2{
+	text-align: center;
+    color: #242f51;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.heading p{
+	font-size: 16px;
+    color: #616368;
+    font-weight: 400;
+}
+/* header starts */
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #242f51;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+	color: #feaa25;
+}
+.btn{
+	transition: all 0.3s linear;
+}
+li.nav-item{
+	margin: 0 10px;
+}
+header h5{
+	background-color: #e2eaed;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #242f51;
+    font-weight: 400;
+    display: inline-block;
+    padding-right: 30px;
+}
+header h5 i{
+	font-size: 15px;
+    background: #feaa25;
+    height: 25px;
+    line-height: 25px !important;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+header h1{
+	font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+    margin: 30px 0;
+}
+header p{
+	color: #616368;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+header .btn{
+	align-items: center;
+	padding: 15px 30px;
+	font-weight: 600;
+	border: 2px solid #2500f9;
+}
+.blue-btn{
+	background-color: #2500f9;
+}
+.blue-btn:hover{
+	background-color: transparent;
+	color: #2500f9 !important;
+}
+.blue{
+	text-transform: capitalize;
+	color: #2500f9;
+	transition: all 0.5s ease;
+}
+.blue:hover{
+	color: #242f51;
+}
+.blue:hover i{
+	color: #242f51;
+}
+.blue i{
+	font-size: 20px;
+}
+.header-content{
+	padding: 120px 0;
+}
+header{
+	background-image: url(../images/header-bg.jpg);
+	background-size: 650px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.menu-btn{
+	background-color: #2500f9;
+}
+/* header ends */
+/* brand section starts */
+.brand{
+    padding: 100px 0;
+}
+.brand img{
+	width: 120px;
+}
+.brand .heading{
+	margin-bottom: 30px;
+}
+/* brand section ends */
+/* feature section starts */
+.features{
+	padding: 50px 0;
+	background-image: url(../images/12345.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.features .heading h2{
+	text-align: left;
+}
+.feature{
+	margin: 30px 0;
+}
+.feature li{
+	margin: 0 10px;
+}
+.feature li i{
+	font-size: 50px;
+}
+.feature h4{
+	text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+.feature span{
+	font-size: 15px;
+    color: #616368;
+}
+.fast h4{
+	color: #f55767;
+}
+.fast i{
+	color: #f55767;
+}
+.prototype h4{
+	color: #2563ff;
+}
+.prototype i{
+	color: #2563ff;
+}
+.edit h4{
+	color: #40975f;
+}
+.edit i{
+	color: #40975f;
+}
+/* feature section ends */
+.text{
+	padding: 50px 0;
+}
+.text h2{
+	    font-size: 36px;
+    font-weight: 500;
+    color: #242f51;
+}
+.text p{
+	font-size: 16px;
+	color: #616368;
+}
+/* text section starts */
+/* effects starts */
+.effects{
+	padding: 50px 0;
+}
+.effect{}
+.effect i{
+	font-size: 25px;
+    height: 50px;
+    width: 50px;
+    /* display: block; */
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.red i{
+	background-color: #ffecef;
+	color: #f55767;
+
+}
+.red h4{
+	color: #f55767;
+}
+.blue i{
+	color: #2563ff;
+	background-color: #f4f4ff;
+}
+.blue h4{
+	color: #2563ff;
+}
+.green i{
+	color: #40975f;
+	background-color: #e4ffee;
+}
+.green h4{
+	color: #40975f;
+}
+.effect h4{
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.effect p{
+	font-size: 16px;
+	color: #616368;
+}
+/* effects ends */
+/* design starts */
+.design{
+	padding: 100px 300px;
+    background-image: url(../images/group.jpg);
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.design .heading{
+	/* padding: 0 50px; */
+}
+.design .heading h2{
+	text-align: left !important;
+	margin-bottom: 20px;
+}
+.design .heading p{
+	margin-bottom: 30px;
+}
+.design .btn{
+	padding: 12px 20px;
+	font-weight: 600;
+	border: 2px solid #2500f9;
+}
+/* design ends */
+/* benefit section starts */
+.benefit{
+	padding: 50px 0;
+}
+.benefit .heading p{
+	text-align: center !important;
+}
+.benefit .heading{
+	margin-bottom: 30px;
+}
+.app-feature{
+	text-align: center;
+	transition: all 0.4s ease;
+	margin: 20px 0;
+	padding: 15px 40px;
+}
+.app-feature:hover{
+	box-shadow: 1px 1px 8px 0px #0000006b;
+}
+.app-feature i{
+	font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.one{
+	background-color: #ffecef;
+}
+.two{
+	background-color: #eaf9ff;
+}
+.three{
+	background-color: #fff6d3;
+}
+.four{
+	background-color: #e4ffee;
+}
+.five{
+	background: #e3e9f1;
+}
+.six{
+	background-color: #fdeee4;
+}
+.app-feature h4{
+	color: #242f51;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 15px 0;
+}
+.app-feature p{
+	font-size: 16px;
+	color: #616368;
+}
+/* benefit section ends */
+/* ultimate features starts */
+.ultimate-feature{
+	padding: 50px 0;
+	background-image: url(../images/multifeature.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+.ultimate-feature .heading{}
+.ultimate-feature .heading h2{
+	text-align: left;
+}
+.imp-feature{
+	margin: 30px 0;
+    padding: 10px 15px;
+    transition: all 0.4s ease;
+}
+.imp-feature:hover{
+	box-shadow: 1px 1px 8px 0px #0000006b;
+}
+.imp-feature i{
+	font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.imp-feature h4{
+	color: #242f51;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 15px 0;
+}
+.imp-feature p{
+	font-size: 16px;
+	color: #616368;
+}
+/* ultimate features ends */
+/* pricing section starts */
+.pricing{
+	padding: 100px 0;
+}
+.pricing .heading h2{}
+.pricing .heading p{
+	text-align: center;
+}
+.pricing .blue-btn{
+	padding: 12px 25px;
+	font-weight: 600;
+	border: 2px solid #2500f9;
+	margin: 30px 0;
+}
+
+.price-heading{
+	background-color: #f1f3f3;
+	padding: 30px 0;
+}
+.price-heading h1{
+	    font-size: 60px;
+    color: #242f51;
+    font-weight: 700;
+}
+.price-heading h1 span{
+	    font-size: 18px;
+    color: #999ca5;
+}
+.price-heading h5{
+	color: #242f51;
+	font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.price-heading h6{
+	font-size: 16px;
+    color: #999ca5;
+}
+.price-table{
+	transition: all 0.5s ease;
+	border: 2px solid #f1f3f37a;
+	border-radius: 5px;
+}
+.price-table:hover{
+	border: 2px solid #cccccc;
+
+}
+.price-table ul{}
+.price-table ul li{
+	color: #999ca5;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 50px 0;
+}
+/* pricing section ends */
+/* faq section starts */
+.faq{
+	padding: 100px 0;
+}
+.faq .heading{}
+.faq .heading h2{}
+.faq .heading p{
+	text-align: center;
+}
+.accordian{}
+.accordion-item{
+	background: #f5f7fa;
+    padding: 35px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.accordion-header{
+	font-size: 20px;
+    font-weight: 600;
+    color: #09142e;
+}
+.accordion-header i{
+	    
+	    transition: all 0.3s ease;
+	    margin-right: 20px;
+}
+.accordion-header[aria-expanded="true"] i{
+    transform: rotate(90deg);
+}
+.accordion-body p{
+	font-size: 15px;
+	color: #616368;
+	padding: 10px 0;
+}
+
+/* faq section ends */
+/* download section starts */
+.download{
+	padding: 50px 0;
+	background-image: url(../images/download.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right center;
+}
+.download .heading{}
+.download .heading h2{
+	text-align: left;
+}
+.download .heading p{}
+.download-btn{
+	background-color: #000;
+	color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 50px 0;
+}
+.download-btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.download-btn i{
+	margin-right: 5px;
+    font-size: 20px;
+}
+/* download section ends */
+/* footer starts */
+footer{
+	background-color: #09142e;
+	padding: 100px 0;
+}
+footer img{}
+ul.footer-menu{
+	margin: 20px 0;
+}
+ul.footer-menu li{
+	margin: 0 20px;
+}
+ul.footer-menu li a{
+	text-decoration: none;
+	    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+ul.icons{
+	margin: 20px 0;
+}
+ul.icons li{
+	margin: 0 15px;
+}
+ul.icons li a{
+	text-decoration: none;
+}
+ul.icons li a i{
+	color: #273043;
+    font-size: 25px;
+    transition: all 0.4s ease;
+}
+ul.icons li a i:hover{
+	color: #fff;
+}
+/* footer section ends */
+

@@ -1,0 +1,289 @@
+@media (max-width: 1399.99px){
+	.design{
+		padding: 0 200px;
+	}
+	.ultimate-feature{
+		background-size: 580px;
+	}
+	.price-heading h1{
+		font-size: 50px;
+	}
+} 
+@media (max-width: 1199.99px){
+	header{
+		background-size: 500px;
+		background-position: right center;
+	}
+	li.nav-item{
+		margin: 0 5px;
+	}
+	header h1{
+		font-size: 50px;
+	}
+	.features{
+		background-size: 630px;
+	}
+		.design{
+		padding: 0 100px;
+	}
+	.app-feature{
+		padding: 15px 30px;
+	}
+	.imp-feature{
+		padding: 10px 12px;
+	}
+	.imp-feature h4{
+		font-size: 17px;
+	}
+	.imp-feature p{
+		font-size: 14px;
+	}
+	.ultimate-feature{
+		background-size: 500px;
+	}
+	footer img {
+    	width: 145px;
+	}
+	.accordion-item{
+		padding: 32px;
+	}
+	.accordion-header{
+		font-size: 18px;
+	}
+	.download-btn{
+		font-size: 15px;
+	}
+	.download-btn i{
+		font-size: 16px;
+	}
+
+}
+@media (max-width: 991.99px){
+	header{
+		background-size: 400px;
+	}
+	header h1{
+		font-size: 40px;
+	}
+	header p{
+		font-size: 16px;
+	}
+	header .btn{
+		margin-bottom: 15px;
+	}
+	.header-content{
+		padding: 50px 0;
+	}
+	.brand img{
+		width: 100px;
+	}
+	.heading h2{
+		font-size: 25px;
+	}
+	.heading p{
+		font-size: 14px;
+	}
+	.feature li i{
+		font-size: 40px;
+	}
+	.feature h4{
+		font-size: 18px;
+	}
+	.feature span{
+		font-size: 14px;
+	}
+	.features{
+		background-size: 500px;
+	}
+	.text h2{
+		font-size: 28px;
+	}
+	.effect h4{
+		font-size: 17px;
+	}
+	.effect p{
+		font-size: 15px;
+	}
+	.design{
+		padding: 0;
+	}
+	.heading h2 {
+    	font-size: 20px;
+	}
+	.design .btn{
+		font-size: 14px;
+		padding: 10px 18px;
+	}
+	.ultimate-feature{
+		background-image: none;
+	}
+	.ultimate-feature .heading h2{
+		text-align: center;
+		font-size: 22px;
+	}
+	.ultimate-feature p{
+		text-align: center;
+	}
+	.imp-feature{
+		text-align: center;
+		padding: 15px 50px;
+		margin-bottom: 20px;
+	}
+
+	.price-heading h1{
+	    font-size: 40px;
+	}
+	.price-heading h5{
+		font-size: 18px;
+	}
+	.price-heading h6{
+		font-size: 14px;
+	}
+	.price-table ul li{
+		font-size: 14px;
+		margin: 45px 0;
+	}
+	.pricing .blue-btn {
+		padding: 12px 18px;
+		font-size: 14px;
+	}
+	.accordion-header{
+		font-size: 16px;
+	}
+	.accordion-item{
+		padding: 25px;
+	}
+	.accordion-body p{
+		font-size: 12px;
+	}
+	.download-btn{
+		padding: 10px;
+		margin: 15px 0;
+	}
+	.download .heading p {
+    	font-size: 13px;
+	}
+	.download-btn i{
+		font-size: 14px;
+	}
+	.download-btn {
+    font-size: 14px;
+}
+}
+@media (max-width: 767.99px){
+	header{
+		background-image: none;
+	}
+	header p{
+		font-size: 15px;
+	}
+	header h1{
+		font-size: 30px;
+		margin: 20px 0;
+	}
+	header .btn{
+		font-size: 14px;
+		padding: 12px 20px;
+	}
+	.blue i {
+    	font-size: 15px;
+	}
+	header h5{
+		font-size: 14px;
+	}
+	.brand{
+		padding: 50px 0;
+	}
+	.brand img{
+		margin-bottom: 20px;
+	}
+	.features{
+		background-image: none;
+		background-size: 450px;
+	}
+	.feature li i {
+    	font-size: 25px;
+	}
+	.features .heading h2{
+		text-align: center;
+	}
+	.features .heading p{
+		text-align: center;
+	}
+	.feature{
+		justify-content: center;
+	}
+		.text{
+		text-align: center;
+	}
+	.text h2{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.text p{
+		font-size: 14px;
+	}
+	.text{
+		padding: 15px 0;
+	}
+	.effect {
+    	text-align: center;
+    	margin-bottom: 30px;
+	}
+	.effect i{
+		margin-bottom: 10px;
+	}
+	.design{
+		background-image: none;
+	}
+	.price-heading h1{
+	    font-size: 30px;
+	}
+	.price-heading h5{
+		font-size: 15px;
+	}
+	.price-heading h6{
+		font-size: 12px;
+	}
+	.price-table ul li{
+		font-size: 14px;
+		margin: 40px 0;
+	}
+	.pricing .blue-btn {
+		font-size: 12px;
+	}
+	.price-table{
+		margin-bottom: 30px;
+	}
+	.pricing{
+		padding: 50px 0;
+	}
+	ul.footer-menu li {
+    margin: 0 10px;
+}
+ul.footer-menu li a{
+	font-size: 13px;
+}
+ul.icons li a i{
+	font-size: 16px;
+}
+.download{
+	background-image: none;
+}
+
+	
+}
+@media (max-width: 575px){
+	header{
+		text-align: center;
+	}
+	.brand img{
+		margin-bottom: 20px;
+	}
+	.features .heading h2{
+		text-align: center;
+	}
+	footer img{
+		width: 110px;
+	}
+}
